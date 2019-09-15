@@ -1,0 +1,53 @@
+# 対象となる月
+target:
+  month: 4
+
+# 証明書提出方法
+syoumei:
+  method: 2 # 1:郵送, 2:アップロード
+  directory: ./sampledata/uploadfiles/ # autofill.pyがあるディレクトリからの相対パスを指定
+
+# 請求書(領収書)発行日
+bill_date: 
+  year: 2019
+  month: 04
+  day: 21
+
+# Benefit station関連情報
+benefit:
+  id: 123456-000-123456
+  pass: samplepass
+
+# すくすく関連情報
+sukusuku:
+  number: 12345
+  child_name: 鈴木 一郎
+  birth_year: 2017
+  birth_month: 1
+  birth_day: 1
+
+# 請求書/領収書関連情報
+bill_info:
+  kijun: 1
+  bill_monthly_amount: 20000
+  apply_monthly_amount: 20000
+  nursley_school: サンプル保育園
+
+# 銀行口座情報
+bank:
+  name: ﾐｽﾞﾎ
+  branch: ｶﾝﾀﾞｼﾃﾝ
+  type: 1 # 普通
+  account_number: 1234567
+  account_name: ｽｽﾞｷｲﾁﾛｳ
+
+# 申請者情報
+applicant:
+  postcode: 1920904
+  prefecture: 13 # 東京都
+  address1: 千代田区丸の内１丁目
+  address2: マンションすずき１２３号
+  email1: sample
+  email2: gmail.com
+  telephone_type: 20 # 携帯
+  telephone_num: 09012345678
